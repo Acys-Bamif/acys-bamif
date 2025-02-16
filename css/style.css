@@ -1,4 +1,4 @@
-/*Apexcys style.css 29.08.2024*/
+/*B.Mubarak style.css 16.02.2025*/
 
 @import url("https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
 
@@ -168,23 +168,23 @@ h2.sub-head {
   background:transparent;
   height: 100px;
   margin: auto;
-  overflow:hidden ;
+  overflow:hidden;
   position: relative;
   margin:50px auto 0;
   width: 100%;
-  max-width:900px;
+  max-with:1100px;
 }
 .slider .slide-track {
-  -webkit-animation: scroll  20s linear infinite;
-  animation: scroll 10s linear infinite;
+  -webkit-animation: scroll 5s linear infinite;
+  animation: scroll 5s linear infinite;
   display: flex;
-  width: calc(130px * 9);
+  width: calc(140px * 8);
 }
 .slider .slide {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 120px;
   margin:0 15px;
-  padding:30px 0;
+  padding:15px 0;
   background-color:#ccd;
   vertical-align:middle;
   line-height:50px;
@@ -328,7 +328,7 @@ h2.sub-head {
 	font-weight:300;
 	position:absolute;
 	bottom:40%; left:20px;
-	font-size:1.2rem;
+	font-size:1.1rem;
 	font-family:monospace;
 	letter-spacing:-1px;
 }
@@ -552,6 +552,9 @@ footer {
 	html {
 		font-size:16px;
 	}
+	.header-outer {
+		padding:70px 50px;
+	}
 	.header-inner {
 		padding:40px 50px;
 	}
@@ -575,17 +578,17 @@ footer {
 	#cta div, #about div{
 		vertical-align:middle;
 	}
-	#about div:first-of-type {
+	#about>div:first-of-type {
 		width:60%;
 		display:inline-block;
 		vertical-align:middle;
 	}
-	#about div:last-of-type {
+	#about>div:last-of-type {
 		width:38%;
 		display:inline-block;
 		vertical-align:middle;
 	}
-	.project-div {
+	.project-di {
 		max-width: 450px;
 	}
 	#cta div:first-of-type {
